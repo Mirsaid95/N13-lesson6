@@ -1,0 +1,174 @@
+.hero{
+    width: 100%;
+    margin-top: 30px;
+
+
+    &__boxs{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+    &__label-order{
+      width: 30px;
+      height: 30px;
+      border: 2px solid gray;
+      border-radius: 50%;
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    &__input-order:checked + &__label-order{
+      background-color: black;
+      position: relative;
+      &::after{
+        content: "";
+        width: 10px;
+        height: 10px;
+        background-color:white;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+    }
+    &__box{
+      display: flex;
+      gap: 25px;
+      align-items: center;
+      width: 300px;
+      height: 50px;
+      padding: 10px;
+      border: 1px solid rgba(0, 0, 0, 0.301);
+      border-radius: 10px;
+      background-color: whitesmoke;
+    }
+    &__checkbox-two{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+    &__span{
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    &__box-one{
+      width: 180px;
+      height: 50px;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border: 1px solid rgba(0, 0, 0, 0.301);
+      border-radius: 10px;
+      background-color: whitesmoke;
+      cursor: pointer;
+    }
+    &__input-list{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50px;
+      height: 22px;
+      border: 1px solid rgba(0, 0, 0, 0.301);
+      border-radius: 15px;
+      font-weight: 600;
+    }
+
+    &__box-two{
+      width: 250px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      border: 1px solid rgba(0, 0, 0, 0.301);
+      border-radius: 10px;
+      background-color: whitesmoke;
+      
+      p{
+        width: 30px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        font-weight: 600;
+        border: 1px solid rgba(0, 0, 0, 0.301);
+        border-radius: 50px;
+      }
+    }
+    
+
+    &__box-select{
+      border: none;
+      background-color: transparent;
+      font-size: 18px;
+      font-weight: 700;
+      gap: 5px;
+      border-left: 2px solid rgba(0, 0, 0, 0.301);
+    }
+
+    &__label-check{
+      width: 30px;
+      height: 30px;
+      border: 2px solid gray;
+      border-radius: 5px;
+      display: inline-block;
+    }
+
+    &__input-check:checked + &__label-check{
+     background-image: url("../../image/Vector.svg");
+     background-color: green;
+     background-repeat: no-repeat;
+     background-position: center;
+     border: 2px solid var(--c2-b);
+    }
+
+    &__info-box{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      padding-top: 20px;
+    }
+
+    &__info-list{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: 18px;
+      color: #A9A9A9;
+      .fa-xmark{
+        color: #A9A9A9;
+
+      }
+    }
+    &__info-list:nth-child(2){
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: green;
+      border: 1px solid;
+      width: 150px;
+      height: 22px;
+      background-color: rgba(0, 128, 0, 0.219);
+      border: none;
+      border-radius: 15px;
+    }
+    &__info-list:nth-child(3){
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: green;
+      border: 1px solid;
+      width: 150px;
+      height: 22px;
+      background-color: rgba(0, 128, 0, 0.219);
+      border: none;
+      border-radius: 15px; 
+    }
+  
+}

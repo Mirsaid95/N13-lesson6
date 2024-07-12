@@ -1,0 +1,42 @@
+.fruit{
+    width: 100%;
+    margin-top: 20px;
+
+    &__block{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title{
+        font-size: 46px;
+        font-weight: 700;
+    }
+    &__table{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    &__list{
+        font-size: 16px;
+    }
+    &__nums{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    &__num{
+        font-size: 18px;
+        border: 1px solid;
+        padding: 3px 8px;
+        border-radius: 30px;
+        border: none;
+        background-color: rgba(87, 141, 5, 0.13);
+        color: green;
+    }
+    .g{
+        color: gray;
+    }
+    
+    
+   
+}

@@ -1,0 +1,125 @@
+.header{
+    width: 100%;
+    padding: 20px 20px;
+    // background-color: whitesmoke;
+
+    &__nav{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__items{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__item-links{
+        display: flex;
+        gap: 20px;
+        font-size: 18px;
+    }
+    &__link{
+        color: green;
+        &:hover{
+            color: blue;
+        }
+    }
+
+    &__item{
+        display: flex;
+        gap: 20px;
+        font-size: 18px;
+    }
+
+    &__fresh{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 1px solid;
+        padding-top: 15px;
+    }
+    &__selects-input{
+        padding: 10px 30px 10px 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        border: 1px solid gray;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        
+        
+        input{
+            width: 280px;
+            font-size: 16px;
+            outline: none;
+            border: none;
+            background-color: transparent;
+        }
+        
+    }
+
+    &__slct{
+        display: flex;
+        align-items: center;
+        border: none;
+        background-color: transparent;
+        outline: none;
+        border-right: 1px solid;
+        font-size: 18px;
+        font-weight: 700;
+        
+    }
+    
+    
+    
+    &__register-shop{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-size: 22px;
+        position: relative;
+    }
+    &__register-num{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translate(-50%,-50%);
+        font-size: 12px;
+        position: absolute;
+        top: 25px;
+        right: 5px;
+        width: 15px;
+        height: 15px;
+        border-radius: 50px;
+        background-color: orange;
+        color: white;
+    }
+
+    &__selector{
+        display: flex;
+        gap: 20px;
+        background-color: whitesmoke;
+        padding: 20px 0px;
+        select{
+            font-size: 18px;
+            border: none;
+            background-color: transparent;
+            outline: none;
+        }
+    }
+
+    &__home-lists{
+        display: flex;
+        gap: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        color: gray;
+        .header__home-list{
+            color: black;
+        }
+    }
+
+
+    
+}

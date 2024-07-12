@@ -1,16 +1,682 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>----------</title>
     <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
 </head>
+
 <body>
-    <header>
-        <div>
-            
-        </div>
+    <header class="header container">
+        <nav class="header__nav">
+
+            <div class="header__items">
+
+                <div class="header__item-links">
+                    <ul class="header__item">
+                        <li class="header__lists"><a href="#" class="header__link">Chat with us</a></li>
+                    </ul>
+                    <p class="header__list">+420 336 775 664</p>
+                    <p class="header__list">info@freshnesecom.com</p>
+                </div>
+
+                <ul class="header__item">
+                    <li class="header__lists"><a href="#" class="header__link">Blog</a></li>
+                    <li class="header__lists"><a href="#" class="header__link">About Us</a></li>
+                    <li class="header__lists"><a href="#" class="header__link">Careers</a></li>
+                </ul>
+
+            </div>
+
+
+            <div class="header__fresh">
+                <div class="header__image">
+                    <img src="./image/Brand.svg" alt="">
+                </div>
+                <div class="header__selects-input">
+
+                    <select class="header__slct">
+                        <option value="1" class="header__option">All categories</option>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </select>
+
+                    <input type="text" placeholder="Search Products, categories ...">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <div class="header__register-shop">
+                    <i class="fa-regular fa-user"></i>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <p class="header__register-num">4</p>
+                </div>
+            </div>
+
+            <div class="header__selector">
+                <select>
+                    <option value="1">Bakery <i class="fa-solid fa-caret-down"></i></option>
+                    <option value="2">Cake clap</option>
+                    <option value="3">Bon !</option>
+                    <option value="4">Sofia</option>
+                </select>
+                <select>
+                    <option value="1">Fruit and vegetables<i class="fa-solid fa-caret-down"></i></option>
+                    <option value="2">Cake clap</option>
+                    <option value="3">Bon !</option>
+                    <option value="4">Sofia</option>
+                </select>
+                <select>
+                    <option value="1">Meat and fish<i class="fa-solid fa-caret-down"></i></option>
+                    <option value="2">Cake clap</option>
+                    <option value="3">Bon !</option>
+                    <option value="4">Sofia</option>
+                </select>
+                <select>
+                    <option value="1">Drinks<i class="fa-solid fa-caret-down"></i></option>
+                    <option value="2">Cake clap</option>
+                    <option value="3">Bon !</option>
+                    <option value="4">Sofia</option>
+                </select>
+                <select>
+                    <option value="1">Kitchen<i class="fa-solid fa-caret-down"></i></option>
+                    <option value="2">Cake clap</option>
+                    <option value="3">Bon !</option>
+                    <option value="4">Sofia</option>
+                </select>
+                <select>
+                    <option value="1">Special nutrition<i class="fa-solid fa-caret-down"></i></option>
+                    <option value="2">Cake clap</option>
+                    <option value="3">Bon !</option>
+                    <option value="4">Sofia</option>
+                </select>
+                <select>
+                    <option value="1">Baby<i class="fa-solid fa-caret-down"></i></option>
+                    <option value="2">Cake clap</option>
+                    <option value="3">Bon !</option>
+                    <option value="4">Sofia</option>
+                </select>
+                <select>
+                    <option value="1">Pharmacy<i class="fa-solid fa-caret-down"></i></option>
+                    <option value="2">Cake clap</option>
+                    <option value="3">Bon !</option>
+                    <option value="4">Sofia</option>
+                </select>
+            </div>
+
+
+            <div class="header__homepage">
+                <span class="header__home-lists">Homepage / <p class="header__home-list">Fruit and vegetables</p></span>
+            </div>
+        </nav>
     </header>
+    <main>
+        <section class="fruit container">
+            <div class="fruit__block">
+                <h1 class="fruit__title">Fruit and vegetables</h1>
+
+                <div class="fruit__table">
+                    <div class="fruit__image">
+                        <img src="./image/ic-layout-square-grid.svg" alt="">
+                    </div>
+                    <p class="fruit__list">Grid view</p>
+                    <div class="fruit__image">
+                        <img src="./image/ic-layout-sections.svg" alt="">
+                    </div>
+                    <p class="fruit__list g">List view</p>
+                    <div class="fruit__nums">
+                        <h6 class="fruit__num">176</h6>
+                        <p class="fruit__list g">Products</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="hero container">
+
+            <div class="hero__items">
+
+                <div class="hero__boxs">
+
+                    <div class="hero__box">
+                        <div class="hero__checkbox-two">
+                            <input checked hidden class="hero__input-order" type="radio" name="order" id="orderOne">
+                            <label class="hero__label-order" for="orderOne"></label>
+                            <span class="hero__span">Filtre text</span>
+                        </div>
+                        <div class="hero__checkbox-two">
+                            <input checked hidden class="hero__input-order" type="radio" name="order" id="ordertwo">
+                            <label class="hero__label-order" for="ordertwo"></label>
+                            <span class="hero__span">Filtre text</span>
+
+                        </div>
+                    </div>
+
+
+                    <div class="hero__box-one">
+                        <input hidden class="hero__input-check" type="checkbox" id="check">
+                        <label class="hero__label-check" for="check"></label>
+                        <span class="hero__span">Filtre</span>
+                        <p class="hero__input-list">Nbm</p>
+                    </div>
+
+                    <div class="hero__box-one">
+                        <input hidden class="hero__input-check" type="checkbox" id="check1">
+                        <label class="hero__label-check" for="check1"></label>
+                        <span class="hero__span">Filtre</span>
+                        <p class="hero__input-list">Nbm</p>
+                    </div>
+
+                    <div class="hero__box-two">
+                        <input hidden class="hero__input-check" type="checkbox" id="check2">
+                        <label class="hero__label-check" for="check2"></label>
+                        <span class="hero__span">Filtre</span>
+                        <p class="hero__input-num">12</p>
+                        <select class="hero__box-select">
+                            <option value="1">Select<i class="fa-solid fa-caret-down"></i></option>
+                        </select>
+                    </div>
+
+
+                </div>
+
+                <div class="hero__info-box">
+                    <p class="hero__info-list">Applied filtres:</p>
+                    <p class="hero__info-list">Selected Filtre<i class="fa-solid fa-xmark"></i></p>
+                    <p class="hero__info-list">Selected Filtre<i class="fa-solid fa-xmark"></i></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="categories container">
+            <div class="categories__items">
+
+                <div class="categories__table">
+
+                    <div class="categories__info-name">
+                        <h1 class="categories__title">Categories</h1>
+                        <span class="categories__name">Category name <p class="categories__nums">320</p></span>
+                        <span class="categories__name">Category name <p class="categories__nums">112</p></span>
+                        <span class="categories__name">Category name <p class="categories__nums">32</p></span>
+                        <span class="categories__name">Category name <p class="categories__nums">48</p></span>
+                    </div>
+
+                    <div class="categories__brands">
+                        <h1 class="categories__br-title">Brands</h1>
+
+                        <div class="categories__brand">
+                            <input hidden class="categories__input-chacked" type="checkbox" id="chacked">
+                            <label class="categories__label-chacked" for="chacked"></label>
+                            <span>Filtre by brand item</span>
+                        </div>
+                        <div class="categories__brand">
+                            <input hidden class="categories__input-chacked" type="checkbox" id="checkOne">
+                            <label class="categories__label-chacked" for="checkOne"></label>
+                            <span>Filtre by brand item</span>
+                        </div>
+                        <div class="categories__brand">
+                            <input hidden class="categories__input-chacked" type="checkbox" id="checktwo">
+                            <label class="categories__label-chacked" for="checktwo"></label>
+                            <span>Filtre by brand item</span>
+                        </div>
+                        <div class="categories__brand">
+                            <input hidden class="categories__input-chacked" type="checkbox" id="checkthree">
+                            <label class="categories__label-chacked" for="checkthree"></label>
+                            <span>Filtre by brand item</span>
+                        </div>
+                        <div class="categories__brand">
+                            <input hidden class="categories__input-chacked" type="checkbox" id="checkfour">
+                            <label class="categories__label-chacked" for="checkfour"></label>
+                            <span>Filtre by brand item</span>
+                        </div>
+
+                    </div>
+
+                    <div class="categories__rating">
+                        <h1 class="categories__rt-title">Rating</h1>
+                        <div class="categories__ratin">
+                            <input hidden class="categories__input-chacked" type="checkbox" id="checked">
+                            <label class="categories__label-chacked" for="checked"></label>
+                            <span><i class="fa-solid fa-star" style="color: gold;"></i></span>
+                            <span><i class="fa-solid fa-star" style="color: gold;"></i></span>
+                            <span><i class="fa-solid fa-star" style="color: gold;"></i></span>
+                            <span><i class="fa-solid fa-star" style="color: gold;"></i></span>
+                            <span><i class="fa-solid fa-star" style="color: gold;"></i></span>
+                        </div>
+                        <div class="categories__ratin">
+                            <input hidden class="categories__input-chacked" type="checkbox" id="checkedOne">
+                            <label class="categories__label-chacked" for="checkedOne"></label>
+                            <span><i class="fa-solid fa-star" style="color: gold;"></i></span>
+                            <span><i class="fa-solid fa-star" style="color: gold;"></i></span>
+                            <span><i class="fa-solid fa-star" style="color: gold;"></i></span>
+                            <span><i class="fa-solid fa-star" style="color: gold;"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                        <div class="categories__ratin">
+                            <input hidden class="categories__input-chacked" type="checkbox" id="checkedtwo">
+                            <label class="categories__label-chacked" for="checkedtwo"></label>
+                            <span><i class="fa-solid fa-star" style="color: gold;"></i></span>
+                            <span><i class="fa-solid fa-star" style="color: gold;"></i></span>
+                            <span><i class="fa-solid fa-star" style="color: gold;"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                        <div class="categories__ratin">
+                            <input hidden class="categories__input-chacked" type="checkbox" id="checkedthree">
+                            <label class="categories__label-chacked" for="checkedthree"></label>
+                            <span><i class="fa-solid fa-star" style="color: gold;"></i></span>
+                            <span><i class="fa-solid fa-star" style="color: gold;"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                        <div class="categories__ratin">
+                            <input hidden class="categories__input-chacked" type="checkbox" id="checkedfour">
+                            <label class="categories__label-chacked" for="checkedfour"></label>
+                            <span><i class="fa-solid fa-star" style="color: gold;"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="categories__price">
+
+                        <h1 class="categories__pr-title">Price</h1>
+                        <div class="categories__image">
+                            <img src="./image/Group 78.svg" alt="">
+                        </div>
+
+                        <div class="categories__pr-input">
+
+                            <div class="categories__input-pr">
+                                <h4 class="categories__min-max">Min</h4>
+                                <input type="text" placeholder="0">
+                            </div>
+
+                            <p class="categories__minus">-</p>
+
+                            <div class="categories__input-pr">
+                                <h4 class="categories__min-max">Max</h4>
+                                <input type="text" placeholder="000">
+                            </div>
+                        </div>
+
+                        <div class="categories__button">
+                            <button class="categories__btn">Apple</button>
+                            <div class="categories__button2">
+                                <button class="categories__btn2">Reset</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="categories__cards">
+
+
+                    <div class="categories__card">
+
+                        <div class="categories__img">
+                            <img src="./image/pulse.png" alt="">
+                        </div>
+
+                        <div class="categories__info-product">
+
+                            <div class="categories__info">
+
+                                <h1 class="categories__title-crd">Product title</h1>
+                                <p class="categories__list-crd">Space for a small product description </p>
+
+                                <div class="categories__star-cin">
+                                    <i class="fa-solid fa-star" style="color: black;"></i>
+                                    <i class="fa-solid fa-star" style="color: black;"></i>
+                                    <i class="fa-solid fa-star" style="color: black;"></i>
+                                    <i class="fa-solid fa-star" style="color: black;"></i>
+                                    <i class="fa-solid fa-star" style="color: rgba(128, 128, 128, 0.342);"></i>
+                                </div>
+
+                            </div>
+
+                            <div class="categories__texts">
+                                <div class="categories__lists">
+                                    <span class="categories__span-list">Fresheness</span>
+                                    <span class="categories__span-list">Farm</span>
+                                    <span class="categories__span-list">Delivery</span>
+                                    <span class="categories__span-list">Stock</span>
+                                </div>
+                                <div class="categories__lists">
+                                    <p class="categories__list"><span class="color-gr">New</span> (Extra fresh)</p>
+                                    <p class="categories__list">Grocery Tarm Fields</p>
+                                    <p class="categories__list">Europe</p>
+                                    <p class="categories__list color-gr">320 pcs</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="categories__price-btn">
+                            <span class="categories__price-span">36.99 USD <p class="categories__sale-span">48.56</p>
+                            </span>
+                            <span class="categories__info-price">Free Shipping <p class="categories__info-day">Delivery
+                                    in 1 day</p></span>
+                            <div class="categories__product-btn">
+                                <button>Product Detail <i class="fa-solid fa-angle-right"></i></button>
+                            </div>
+                            <div class="categories__product-button">
+                                <button><i class="fa-regular fa-heart"></i>Add to wish list</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="categories__card">
+
+                        <div class="categories__img">
+                            <img src="./image/pulse.png" alt="">
+                        </div>
+
+                        <div class="categories__info-product">
+
+                            <div class="categories__info">
+
+                                <h1 class="categories__title-crd">Product title</h1>
+                                <p class="categories__list-crd">Space for a small product description </p>
+
+                                <div class="categories__star-cin">
+                                    <i class="fa-solid fa-star" style="color: black;"></i>
+                                    <i class="fa-solid fa-star" style="color: black;"></i>
+                                    <i class="fa-solid fa-star" style="color: black;"></i>
+                                    <i class="fa-solid fa-star" style="color: black;"></i>
+                                    <i class="fa-solid fa-star" style="color: rgba(128, 128, 128, 0.342);"></i>
+                                </div>
+
+                            </div>
+
+                            <div class="categories__texts">
+                                <div class="categories__lists">
+                                    <span class="categories__span-list">Fresheness</span>
+                                    <span class="categories__span-list">Farm</span>
+                                    <span class="categories__span-list">Delivery</span>
+                                    <span class="categories__span-list">Stock</span>
+                                </div>
+                                <div class="categories__lists">
+                                    <p class="categories__list"><span class="color-gr">New</span> (Extra fresh)</p>
+                                    <p class="categories__list">Grocery Tarm Fields</p>
+                                    <p class="categories__list">Europe</p>
+                                    <p class="categories__list color-gr">320 pcs</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="categories__price-btn">
+                            <span class="categories__price-span">36.99 USD <p class="categories__sale-span">48.56</p>
+                            </span>
+                            <span class="categories__info-price">Free Shipping <p class="categories__info-day">Delivery
+                                    in 1 day</p></span>
+                            <div class="categories__product-btn">
+                                <button>Product Detail <i class="fa-solid fa-angle-right"></i></button>
+                            </div>
+                            <div class="categories__product-button">
+                                <button><i class="fa-regular fa-heart"></i>Add to wish list</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="categories__card">
+
+                        <div class="categories__img">
+                            <img src="./image/pulse.png" alt="">
+                        </div>
+
+                        <div class="categories__info-product">
+
+                            <div class="categories__info">
+
+                                <h1 class="categories__title-crd">Product title</h1>
+                                <p class="categories__list-crd">Space for a small product description </p>
+
+                                <div class="categories__star-cin">
+                                    <i class="fa-solid fa-star" style="color: black;"></i>
+                                    <i class="fa-solid fa-star" style="color: black;"></i>
+                                    <i class="fa-solid fa-star" style="color: black;"></i>
+                                    <i class="fa-solid fa-star" style="color: black;"></i>
+                                    <i class="fa-solid fa-star" style="color: rgba(128, 128, 128, 0.342);"></i>
+                                </div>
+
+                            </div>
+
+                            <div class="categories__texts">
+                                <div class="categories__lists">
+                                    <span class="categories__span-list">Fresheness</span>
+                                    <span class="categories__span-list">Farm</span>
+                                    <span class="categories__span-list">Delivery</span>
+                                    <span class="categories__span-list">Stock</span>
+                                </div>
+                                <div class="categories__lists">
+                                    <p class="categories__list"><span class="color-gr">New</span> (Extra fresh)</p>
+                                    <p class="categories__list">Grocery Tarm Fields</p>
+                                    <p class="categories__list">Europe</p>
+                                    <p class="categories__list color-gr">320 pcs</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="categories__price-btn">
+                            <span class="categories__price-span">36.99 USD <p class="categories__sale-span">48.56</p>
+                            </span>
+                            <span class="categories__info-price">Free Shipping <p class="categories__info-day">Delivery
+                                    in 1 day</p></span>
+                            <div class="categories__product-btn">
+                                <button>Product Detail <i class="fa-solid fa-angle-right"></i></button>
+                            </div>
+                            <div class="categories__product-button">
+                                <button><i class="fa-regular fa-heart"></i>Add to wish list</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="categories__card">
+
+                        <div class="categories__img">
+                            <img src="./image/pulse.png" alt="">
+                        </div>
+
+                        <div class="categories__info-product">
+
+                            <div class="categories__info">
+
+                                <h1 class="categories__title-crd">Product title</h1>
+                                <p class="categories__list-crd">Space for a small product description </p>
+
+                                <div class="categories__star-cin">
+                                    <i class="fa-solid fa-star" style="color: black;"></i>
+                                    <i class="fa-solid fa-star" style="color: black;"></i>
+                                    <i class="fa-solid fa-star" style="color: black;"></i>
+                                    <i class="fa-solid fa-star" style="color: black;"></i>
+                                    <i class="fa-solid fa-star" style="color: rgba(128, 128, 128, 0.342);"></i>
+                                </div>
+
+                            </div>
+
+                            <div class="categories__texts">
+                                <div class="categories__lists">
+                                    <span class="categories__span-list">Fresheness</span>
+                                    <span class="categories__span-list">Farm</span>
+                                    <span class="categories__span-list">Delivery</span>
+                                    <span class="categories__span-list">Stock</span>
+                                </div>
+                                <div class="categories__lists">
+                                    <p class="categories__list"><span class="color-gr">New</span> (Extra fresh)</p>
+                                    <p class="categories__list">Grocery Tarm Fields</p>
+                                    <p class="categories__list">Europe</p>
+                                    <p class="categories__list color-gr">320 pcs</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="categories__price-btn">
+                            <span class="categories__price-span">36.99 USD <p class="categories__sale-span">48.56</p>
+                            </span>
+                            <span class="categories__info-price">Free Shipping <p class="categories__info-day">Delivery
+                                    in 1 day</p></span>
+                            <div class="categories__product-btn">
+                                <button>Product Detail <i class="fa-solid fa-angle-right"></i></button>
+                            </div>
+                            <div class="categories__product-button">
+                                <button><i class="fa-regular fa-heart"></i>Add to wish list</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="categories__card">
+
+                        <div class="categories__img">
+                            <img src="./image/pulse.png" alt="">
+                        </div>
+
+                        <div class="categories__info-product">
+
+                            <div class="categories__info">
+
+                                <h1 class="categories__title-crd">Product title</h1>
+                                <p class="categories__list-crd">Space for a small product description </p>
+
+                                <div class="categories__star-cin">
+                                    <i class="fa-solid fa-star" style="color: black;"></i>
+                                    <i class="fa-solid fa-star" style="color: black;"></i>
+                                    <i class="fa-solid fa-star" style="color: black;"></i>
+                                    <i class="fa-solid fa-star" style="color: black;"></i>
+                                    <i class="fa-solid fa-star" style="color: rgba(128, 128, 128, 0.342);"></i>
+                                </div>
+
+                            </div>
+
+                            <div class="categories__texts">
+                                <div class="categories__lists">
+                                    <span class="categories__span-list">Fresheness</span>
+                                    <span class="categories__span-list">Farm</span>
+                                    <span class="categories__span-list">Delivery</span>
+                                    <span class="categories__span-list">Stock</span>
+                                </div>
+                                <div class="categories__lists">
+                                    <p class="categories__list"><span class="color-gr">New</span> (Extra fresh)</p>
+                                    <p class="categories__list">Grocery Tarm Fields</p>
+                                    <p class="categories__list">Europe</p>
+                                    <p class="categories__list color-gr">320 pcs</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="categories__price-btn">
+                            <span class="categories__price-span">36.99 USD <p class="categories__sale-span">48.56</p>
+                            </span>
+                            <span class="categories__info-price">Free Shipping <p class="categories__info-day">Delivery
+                                    in 1 day</p></span>
+                            <div class="categories__product-btn">
+                                <button>Product Detail <i class="fa-solid fa-angle-right"></i></button>
+                            </div>
+                            <div class="categories__product-button">
+                                <button><i class="fa-regular fa-heart"></i>Add to wish list</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="categories__page-button">
+
+                <div class="categories__numbers">
+                    <p class="categories__number-list">Page</p>
+                    <ul class="categories__lists-num">
+                        <li class="categories__item"><a href="#" class="categories__link">1</a></li>
+                        <li class="categories__item"><a href="#" class="categories__link">2</a></li>
+                        <li class="categories__item"><a href="#" class="categories__link">3</a></li>
+                        <li class="categories__item"><a href="#" class="categories__link">4</a></li>
+                    </ul>
+                </div>
+
+                <button class="categories__pagee-btn">Show more products<i class="fa-solid fa-angle-down"></i></button>
+
+                <span class="categories__page-list">
+                    <p class="categories__page-num">336</p>Products
+                </span>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+
+        <div class="footer__items">
+
+            <ul class="footer__links">
+                <h1 class="footer__title">Get in touch</h1>
+                <li class="footer__item"><a href="" class="footer__link">About Us</a></li>
+                <li class="footer__item"><a href="" class="footer__link">Careers</a></li>
+                <li class="footer__item"><a href="" class="footer__link">Press Releases</a></li>
+                <li class="footer__item"><a href="" class="footer__link">Blog</a></li>
+            </ul>
+            <ul class="footer__links">
+                <h1 class="footer__title">Connections</h1>
+                <li class="footer__item"><a href="" class="footer__link">Facebook</a></li>
+                <li class="footer__item"><a href="" class="footer__link">Twitter</a></li>
+                <li class="footer__item"><a href="" class="footer__link">Instagram</a></li>
+                <li class="footer__item"><a href="" class="footer__link">Youtube</a></li>
+                <li class="footer__item"><a href="" class="footer__link">LinkedIn</a></li>
+            </ul>
+            <ul class="footer__links">
+                <h1 class="footer__title">Earnings</h1>
+                <li class="footer__item"><a href="">Become an Affiliate</a></li>
+                <li class="footer__item"><a href="">Advertise your product</a></li>
+                <li class="footer__item"><a href="">Sell on Market</a></li>
+            </ul>
+            <ul class="footer__links">
+                <h1 class="footer__title">Account</h1>
+                <li class="footer__item"><a href="" class="footer__link">Your account</a></li>
+                <li class="footer__item"><a href="" class="footer__link">Returns Centre</a></li>
+                <li class="footer__item"><a href="" class="footer__link">100 % purchase protection</a></li>
+                <li class="footer__item"><a href="" class="footer__link">Chat with us</a></li>
+                <li class="footer__item"><a href="" class="footer__link">Help</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__tags">
+
+            <h1 class="footer__tag-title">Product tags</h1>
+            <div class="footer__tag">
+                <p class="footer__company">Beans</p>
+                <p class="footer__company">Carrots</p>
+                <p class="footer__company">Apples</p>
+                <p class="footer__company">Garlic</p>
+                <p class="footer__company">Mushrooms</p>
+                <p class="footer__company">Tomatoes</p>
+                <p class="footer__company">Chilli peppers</p>
+                <p class="footer__company">Broccoli</p>
+                <p class="footer__company">Watermelons</p>
+                <p class="footer__company">Oranges</p>
+                <p class="footer__company">Bananas</p>
+                <p class="footer__company">Grapes</p>
+            </div>
+            <div class="footer__tag2">
+                <p class="footer__company2">Cherries</p>
+                <p class="footer__company2">Meat</p>
+                <p class="footer__company2">Seo tag</p>
+                <p class="footer__company2">Fish</p>
+                <p class="footer__company2">Seo tag</p>
+                <p class="footer__company2">Fresh food</p>
+                <p class="footer__company2">Lemons</p>
+            </div>
+            <p class="footer__end">Copyright © 2020 petrbilek.com</p>
+        </div>
+    </footer>
 </body>
+
 </html>
